@@ -1,0 +1,80 @@
+/*Mohammed Dahlan, section:KE ,brief description of the assignment:assignment2 about Saudi Arabia National Day (90)-CPIT405, file's contents: CSS file*/
+body {
+  background-image: url("image/rancidbanner1.png"), url("image/rancidbannerbg.png");
+  background-position: center top;
+  background-size: 100px , auto;
+  background-repeat: no-repeat , repeat-x;
+  font-size: 12pt;
+  font-family: Arial;
+}
+
+h1 {
+  font-size: 24pt;
+  font-weight: bold;
+  text-align: center;
+  font-family: Georgia;
+  text-shadow: 3px 3px #999999;
+}
+.contentArea {
+  display: flex;
+  clear: both;
+  box-shadow: 5px 5px grey;
+  margin-bottom: 1rem;
+}
+.left {
+  float: left;
+  background-color: #EEEEEE;
+  width: 70%;
+  background-image: url("image/freshlarge.png"), url("image/rottenlargebg.png");
+  background-position: left top;
+  background-repeat: no-repeat, repeat-x;
+  background-size: auto 83px, auto 83px;
+}
+.year {
+  font-size: 48pt;
+  font-weight: bold;
+  color: red;
+  text-align: center;
+}
+.reviews {
+  width: 90%;
+  border-radius: 12px;
+  background-color: #FFFFFF;
+  border: solid #CCCCCC;
+  font-size: 13pt;
+  font-family: Georgia;
+  font-weight: normal;
+  padding: 15px;
+}
+.box {
+  text-indent: 5px;
+}
+.reviewerName {
+  font-size: 13pt;
+  font-style: normal;
+}
+.publication {
+  font-size: 13pt;
+  font-style: italic;
+}
+.right {
+  float: left;
+  width: 30%;
+  height: auto;
+  background-image: url("image/National Day.png"), url("image/bg.png");
+  background-repeat: no-repeat;
+  background-size: contain , cover;
+  font-family: Arial;
+  font-size: 12pt;
+}
+.bar {
+  background-color: #A2B964;
+  width: 100%;
+  text-align: center;
+}
+h2 {
+  font-weight: bold;
+}
+ul {
+  list-style-type: none;
+}
